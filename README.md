@@ -50,6 +50,8 @@ We expect our approach to require orders of magnitude more training time to conv
 
 Note that no sparse autoencoder was trained to convergence, which is plausibly quite important because Anthropic say that scale matters in their dictionary learning paper and since it is a common heuristic in interpretability that models trained closer to convergence internally represent things in a cleaner and less noisy way.
 
+We conclude that even though we don't obtain better results with our approach that with the standard approach, it is unclear whether it is because our approach doesn't work or just because we didn't use enough compute and didn't iterate enough.
+
 ## Time Spent and Originality of Ideas
 
 This project was done for my application to Neel Nanda's MATS stream.
