@@ -37,10 +37,11 @@ But we feared that this would make hyperparameter tuning harder. We guess that t
 
 We plot the whole model reconstruction loss and the interpretability scores as measured with OpenAI's autointerpretability framework.
 Unfortunately, OpenAI's autointerpretability framework produced scores with a huge variance for different sparse autoencoder features, so the error bars are huge.
+We are confident that we didn't use OpenAI's framework the correct way. However, we did a sanity check where we confirmed that with the way we use it, we find higher interpretability scores for synthetic data that is easier to explain.
 
 Unfortunately, some autoencoders on the third checkpoint were diverging and there was a technical problem with the remote jupyter notebook when testing the autoencoders on the second checkpoint, so we only have results on the first checkpoint.
 
-![image](plot.png)
+![image](newplot.png)
 
 Unfortunately, our approach did not give better results than the standard way to train sparse autoencoders.
 
